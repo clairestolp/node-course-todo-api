@@ -22,12 +22,12 @@ var id = '5a356bf1d2a1a600c4484436';
 //   console.log('Todo', todo);
 // });
 
-// Todo.findById(id).then((todo) => {
-//   if (!todo) {
-//     return console.log('Id not found.');
-//   }
-//   console.log('Todo by id', todo);
-// }).catch((e) => console.log(e));
+Todo.findById(id).then((todo) => {
+  if (!todo) {
+    return console.log('Id not found.');
+  }
+  console.log('Todo by id', todo);
+}).catch((e) => console.log(e));
 
 //querry user collection id
 //load in user todo mongod
