@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "expect": "^21.2.1",
+    "expect": "^1.20.2",
     "express": "^4.16.2",
     "lodash": "^4.17.4",
     "mongodb": "^2.2.19",
